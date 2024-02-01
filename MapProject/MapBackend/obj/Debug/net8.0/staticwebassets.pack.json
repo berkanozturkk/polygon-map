@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\berka\\Downloads\\MapProject\\MapBackend\\wwwroot\\drawings.json",
+      "PackagePath": "staticwebassets\\drawings.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MapBackend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MapBackend.props",
+      "PackagePath": "build\\MapBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MapBackend.props",
+      "PackagePath": "buildMultiTargeting\\MapBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MapBackend.props",
+      "PackagePath": "buildTransitive\\MapBackend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

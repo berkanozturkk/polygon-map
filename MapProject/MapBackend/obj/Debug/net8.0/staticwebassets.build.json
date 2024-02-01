@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "g58fbet3Ou+uQosCsxz0+QL1RINflXPUxOxVmbO7HOs=",
+  "Source": "MapBackend",
+  "BasePath": "_content/MapBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MapBackend\\wwwroot",
+      "Source": "MapBackend",
+      "ContentRoot": "C:\\Users\\berka\\Downloads\\MapProject\\MapBackend\\wwwroot\\",
+      "BasePath": "_content/MapBackend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\berka\\Downloads\\MapProject\\MapBackend\\wwwroot\\drawings.json",
+      "SourceId": "MapBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\berka\\Downloads\\MapProject\\MapBackend\\wwwroot\\",
+      "BasePath": "_content/MapBackend",
+      "RelativePath": "drawings.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\drawings.json"
+    }
+  ]
+}

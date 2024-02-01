@@ -1,0 +1,41 @@
+
+<h1 style="position: absolute; margin-top: 200px; margin-left: 100px;">Polygon App
+  <br>
+<h2>Please select the action you want to take</h2>
+</h1>
+
+<button class="btn btn-primary" style="margin-top: 500px; margin-left: 200px; position: absolute;" (click)="openModal(modalTemplate)">Query Drawing</button>
+<div class="base-modalteplate">
+<ng-template #modalTemplate>
+    
+    <div class="modal-content custom-modal-content">
+      <div class="modal-header custom-modal-header">
+        <h4 class="modal-title">Queried Drawings</h4>
+        <button type="button" class="close" aria-label="Close" (click)="modalRef?.hide()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body custom-modal-body">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Number</th>
+              <th>Coordinates</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let drawing of drawings">
+              <td>{{ drawing.name }}</td>
+              <td>{{ drawing.number }}</td>
+              <td>{{ drawing.coordinates | json }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer custom-modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="modalRef?.hide()">Close</button>
+      </div>
+    </div>
+</ng-template>
+</div>

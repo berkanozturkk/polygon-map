@@ -1,0 +1,21 @@
+<div class="container" style="position: fixed; margin-left: 700px;">
+  <div id="map" style="width: 85%; height: 700px; margin-top: 100px;"></div>
+</div>
+<div>
+  <div class="container-child" style="position: absolute; top: 0; left: 0; margin-left: 300px;">
+    <button class="btn btn-primary" style="margin-top: 500px; margin-left: 100px;" (click)="startDrawing()">Add Drawing</button>
+    <div *ngIf="showForm">
+      <form [formGroup]="drawingForm" (ngSubmit)="submitForm()" style="margin-top: 50px;">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" formControlName="name" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="number">Number:</label>
+          <input type="number" id="number" formControlName="number" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>

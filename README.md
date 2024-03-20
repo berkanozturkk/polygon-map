@@ -1,4 +1,4 @@
-# polygon-map
+# Map Polygon Drawing
 
 ##Scope:
 

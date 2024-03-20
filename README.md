@@ -1,13 +1,13 @@
 # polygon-map
 
-Scope:
+##Scope:
 
 This application is a web application where the user can add polygons on the map and query these polygons.
 Openlayers 6 or newer version is used for map operations. OSM is used as the base layer on the map. 
 
 Asp.Net Web API is used for the backend. Angular Typescript is used for the frontend.
 
-Features:
+##Features:
 
 1- Opening the Map:  When the application is opened, the map zooms to Turkey.
 
@@ -18,3 +18,8 @@ number (integer), then all coordinates of the drawing and the name and number in
 3- Query Drawing: When the "Query Drawing" button is clicked, a modalpopup
 is opened and the data stored in the json file (name, number and
 coordinates) are taken and displayed on a datatable.
+
+##Technologies Used : 
+
+-Backend : .NET (C#)
+-Frontend : Angular, HTML, CSS

@@ -3,9 +3,7 @@
 ## Scope:
 
 This application is a web application where the user can add polygons on the map and query these polygons.
-Openlayers 6 or newer version is used for map operations. OSM is used as the base layer on the map. 
 
-Asp.Net Web API is used for the backend. Angular Typescript is used for the frontend.
 
 ## Features:
 
@@ -24,3 +22,5 @@ coordinates) are taken and displayed on a datatable.
 -Backend : .NET (C#)
 
 -Frontend : Angular, HTML, CSS
+
+-Map : OpenLayers (6 or newer version)

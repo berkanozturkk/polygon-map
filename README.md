@@ -22,4 +22,5 @@ coordinates) are taken and displayed on a datatable.
 ## Technologies Used : 
 
 -Backend : .NET (C#)
+
 -Frontend : Angular, HTML, CSS

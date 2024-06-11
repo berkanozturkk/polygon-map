@@ -1,21 +1,12 @@
 # Map Polygon Drawing
 
-## Scope:
+Overview
+This repository contains a web application that allows users to draw polygons on a map, save them, and query the saved polygons. The application is built using .NET for the backend and Angular for the frontend, utilizing OpenLayers for map functionalities.
 
-This application is a web application where the user can add polygons on the map and query these polygons.
-
-
-## Features:
-
-1- Opening the Map:  When the application is opened, the map zooms to Turkey.
-
-2- Add Drawing: When the "Add Drawing" button is clicked, on the map
-polygon can be drawn anywhere and when the drawing process is finished, a modal-popup etc. opens. In the window that opens, ask the user for a name (string) and
-number (integer), then all coordinates of the drawing and the name and number information entered by the user (via API) is written to a json file.
-
-3- Query Drawing: When the "Query Drawing" button is clicked, a modalpopup
-is opened and the data stored in the json file (name, number and
-coordinates) are taken and displayed on a datatable.
+Features
+🌍 Map Initialization: The map opens zoomed to Turkey.
+✏️ Add Drawing: Draw polygons on the map, input a name and number, and save this data along with polygon coordinates to a JSON file.
+🔍 Query Drawing: Retrieve and display saved polygons with their metadata in a datatable.
 
 ## Technologies Used : 
 

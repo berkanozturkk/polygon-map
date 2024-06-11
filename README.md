@@ -45,20 +45,4 @@ This repository contains a web application that allows users to draw polygons on
   ng serve
   ```
 
-#### Contributing
-Contributions are welcome! Please fork the repository and create a pull request with detailed information about your changes.
 
-#### License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize this README to better suit your project's needs.
-
-## Technologies Used : 
-
--Backend : .NET (C#)
-
--Frontend : Angular, HTML, CSS
-
--Map : OpenLayers (6 or newer version)
